@@ -24,6 +24,8 @@
 - **添加密钥ssh-add**
 >运行 ssh-add 时， 如果提示 “Could not open a connection to your authentication agent.” 说明你的ssh-agent并没有运行；使用下面的命令运行 ssh agent，再使用ssh-add命令添加你的 ssh key。
 
+> windows每次都要启动ssh-add后才能免密上传
+
 ` shell `
 
     # 先启动，再运行
