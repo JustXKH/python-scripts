@@ -26,5 +26,3 @@
     # 在Windows中的git-bash中
     $ eval $(ssh-agent)
     ssh-add ~/.ssh/other_id_rsa
-
-测试
