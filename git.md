@@ -35,5 +35,3 @@
     $ eval $(ssh-agent)
     ssh-add ~/.ssh/other_id_rsa
 
-
-test
