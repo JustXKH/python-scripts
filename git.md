@@ -6,7 +6,15 @@
 > + **Repository 仓库区(本地仓库)**
 > + **Remote 远程仓库**
 
+    git add .
+    git commit -m 'message'
+    git push -u origin master # -u参数指定一个默认主机
 
+## 查看分支
+- git branch 查看本地分支
+- git branch -a 查看所有分支（本地与远程）
+- git branch -r 查看远程分支
+- git branch -vv 查看本地分支与远程分支之间的关联关系
 
 ![alt git图解2](git-2.png)
 
